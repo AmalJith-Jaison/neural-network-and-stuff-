@@ -28,3 +28,4 @@ plt.plot(m1history.history['accuracy'],label='accuracy')
 plt.plot(m1history.history['val_accuracy'],label='val_accuracy')
 plt.legend()
 plt.show()
+#simple cnn problem..
