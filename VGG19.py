@@ -2,6 +2,7 @@ import tensorflow as tf
 from keras.models import Sequential
 from keras.layers import Flatten,Dense
 from keras.applications import VGG19
+from keras.datasets import mnist
 from keras.utils import to_categorical
 import numpy as np
 (xtrain,ytrain),(xtest,ytest)=mnist.load_data()
